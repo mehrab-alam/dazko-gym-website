@@ -126,6 +126,7 @@
 
 @media only screen and (max-width: 415px) {
     .footerSection {
+        height: 100%;
         flex-direction: column;
         padding: 10px;
         width: 100%;
