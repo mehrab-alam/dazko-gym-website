@@ -146,6 +146,13 @@
     .fitnessTrainerSection {
         height: 100%;
         width: 100%;
+
+    }
+
+    .fitnessTrainerSection h1,
+    .fitnessTrainerSection h4 {
+        text-align: center;
+        width: 100%;
     }
 
     .trainersProfile {

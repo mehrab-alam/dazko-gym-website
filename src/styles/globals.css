@@ -97,29 +97,29 @@ a {
   background-color: black;
 } */
 
-.carousel-container {
 
-  .slick-dots {
-    height: 100%;
-    width: 200px;
-    margin: 0 auto;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    z-index: 1;
-    top: 0px;
-    margin-right: 40px;
-    rotate: -180deg;
-  }
 
-  .slick-dots li.slick-active button {
-    background: #e1193e !important;
-  }
-
-  .slick-dots li {
-    margin-top: 10px;
-  }
+.carousel-container .slick-dots {
+  height: 100%;
+  width: 200px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  margin-right: 40px;
+  rotate: -180deg;
 }
+
+.carousel-container .slick-dots li.slick-active button {
+  background: #e1193e !important;
+}
+
+.carousel-container .slick-dots li {
+  margin-top: 10px;
+}
+
 
 .testimonial-carousel {
 
@@ -127,12 +127,12 @@ a {
     top: 20px;
   }
 
-  .slick-dots {
+  .carousel-container .slick-dots {
     position: relative;
     top: 40px;
   }
 
-  .ant-carousel .slick-dots li.slick-active button,
+  .carousel-container .ant-carousel .slick-dots li.slick-active button,
   .ant-carousel .slick-dots li button {
     height: 10px;
     width: 10px;
@@ -141,118 +141,117 @@ a {
 
   }
 
-  .ant-carousel .slick-dots li.slick-active button {
+  .carousel-container .ant-carousel .slick-dots li.slick-active button {
     background-color: #999;
 
   }
+
+
 }
 
 
 
-
-.tabContainer {
-  .ant-tabs-content-holder {
-    display: none !important;
-  }
-
-  .ant-tabs-nav::before {
-    display: none;
-  }
-
-  .ant-tabs-ink-bar {
-    display: none;
-  }
-
-  .ant-tabs-tab-active .ant-tabs-tab-btn {
-    color: #e1193e !important;
-  }
-
-  .ant-tabs-tab:hover {
-    color: #fff;
-  }
-
-  .ant-tabs-tab-btn:hover {
-    color: #fff;
-  }
+.tabContainer .ant-tabs-content-holder {
+  display: none !important;
 }
+
+.tabContainer .ant-tabs-nav::before {
+  display: none;
+}
+
+.tabContainer .ant-tabs-ink-bar {
+  display: none;
+}
+
+.tabContainer .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #e1193e !important;
+}
+
+.tabContainer .ant-tabs-tab:hover {
+  color: #fff;
+}
+
+.tabContainer .ant-tabs-tab-btn:hover {
+  color: #fff;
+}
+
 
 @media only screen and (max-width: 415px) {
-  .tabContainer {
 
-    .ant-tabs-tab-active .ant-tabs-tab-btn {
-      color: #e1193e !important;
-      font-size: 1rem;
-    }
 
-    .ant-tabs-tab-btn {
-      font-size: 1rem;
-      margin-top: -10px;
-    }
-
-    .ant-tabs-tab:hover {
-      color: #fff;
-    }
-
-    .ant-tabs-nav-list {
-      margin-top: 20px;
-    }
-
-    .ant-tabs-tab-btn:hover {
-      color: #fff;
-    }
+  .tabContainer .ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #e1193e !important;
+    font-size: 1rem;
   }
 
-  .carousel-container {
-    .slick-dots {
-      width: 100%;
-      flex-direction: column;
-      justify-content: center;
-      position: absolute;
-      height: 50px;
-      top: 800px;
-
-    }
-
-    .slick-dots li.slick-active button {
-      background: #e1193e !important;
-      width: 30px;
-
-    }
-
-    .slick-dots li {
-      margin-top: 10px;
-      width: 20px;
-    }
+  .tabContainer .ant-tabs-tab-btn {
+    font-size: 1rem;
+    margin-top: -10px;
   }
 
-  .testimonial-carousel {
+  .tabContainer .ant-tabs-tab:hover {
+    color: #fff;
+  }
 
-    .ant-carousel .slick-dots ul {
-      top: 20px;
-    }
+  .tabContainer .ant-tabs-nav-list {
+    margin-top: 20px;
+  }
 
-    .slick-dots {
-      position: relative;
-      top: 40px;
+  .tabContainer .ant-tabs-tab-btn:hover {
+    color: #fff;
+  }
 
-    }
+
+
+  .carousel-container .slick-dots {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    height: 50px;
+    top: 800px;
 
   }
 
-  .tabContainer {
-    .ant-tabs-nav-list {
-      flex-direction: column;
-      align-items: flex-start;
-      padding-left: 10px;
-      /* position: relative; */
-      left: -10px;
-      padding-top: 10px;
+  .carousel-container .slick-dots li.slick-active button {
+    background: #e1193e !important;
+    width: 30px;
 
-    }
-
-    .ant-tabs .ant-tabs-tab+.ant-tabs-tab {
-      margin: 0px;
-
-    }
   }
+
+  .carousel-container .slick-dots li {
+    margin-top: 10px;
+    width: 20px;
+  }
+
+
+
+
+  .testimonial-carousel .ant-carousel .slick-dots ul {
+    top: 20px;
+  }
+
+  .testimonial-carousel .slick-dots {
+    position: relative;
+    top: 40px;
+
+  }
+
+
+
+  .tabContainer .ant-tabs-nav-list {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    /* position: relative; */
+    left: -10px;
+    padding-top: 10px;
+
+  }
+
+  .tabContainer .ant-tabs .ant-tabs-tab+.ant-tabs-tab {
+    margin: 0px;
+
+  }
+
 }

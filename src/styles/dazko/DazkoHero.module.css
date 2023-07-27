@@ -242,6 +242,14 @@
 }
 
 @media only screen and (max-width: 415px) {
+    .heroContainer {
+        max-height: 100%;
+    }
+
+    .heroDescriptionsBg {
+        max-height: 100%;
+    }
+
     .headerContent {
         display: none;
     }
@@ -388,7 +396,7 @@
     }
 
     .bgImage {
-
+        max-height: 100%;
         object-fit: cover;
         object-position: center;
         -o-object-position: center;
