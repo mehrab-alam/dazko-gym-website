@@ -77,6 +77,7 @@
 }
 
 .profileConatiner>div:last-child p {
+    font-weight: 600;
     color: #e1193e;
 }
 
@@ -113,10 +114,24 @@
         display: none;
     }
 
+    .testimonialSection {
+        padding-top: 80px;
+    }
+
+    .testimonialSection h1 {
+        font-size: 28px;
+        font-weight: 800;
+    }
+
     .testimonialSection h4,
     .testimonialSection h1 {
         width: 100%;
         text-align: center;
+    }
+
+    .carouselWrapper {
+        padding: 0px 10px;
+
     }
 
     .responsiveCarouselContainer {

@@ -85,6 +85,7 @@
 
 .priceingDetailes Button {
     font-size: 1rem;
+    font-weight: 700;
 
     width: 80%;
     height: 150%;
@@ -257,15 +258,25 @@
         width: 100%;
     }
 
+    .priceingDetailes h2 {
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
     .features h2 {
         width: 100%;
     }
 
+    .priceingDetailes Button {
+        padding: 10px 0px;
+        font-size: 14px;
+        font-weight: 600;
+    }
 
 
     .priceingDetailes>div {
-        width: 350px;
-        height: 500px;
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -280,7 +291,9 @@
     .featureContainer>div:first-child h2,
     .featureContainer>div:nth-child(2) h2,
     .featureContainer>div:first-child p,
-    .featureContainer>div:nth-child(2) p {
+    .featureContainer>div:nth-child(2) p,
+    .featureContainer>div:nth-child(3) p,
+    .featureContainer>div:nth-child(3) h2 {
         -webkit-transform:
             skewX(0deg);
         -moz-transform: skewX(0deg);
@@ -292,13 +305,16 @@
     }
 
     .featureContainer>div:first-child p,
-    .featureContainer>div:nth-child(2) p {
-        margin-left: 0px;
-
+    .featureContainer>div:nth-child(2) p,
+    .featureContainer>div:nth-child(3) p {
+        margin: 0px
     }
 
+
+
     .featureContainer>div:first-child img,
-    .featureContainer>div:nth-child(2) img {
+    .featureContainer>div:nth-child(2) img,
+    .featureContainer>div:nth-child(3) img {
         -webkit-transform:
             skewX(10deg);
         -moz-transform: skewX(0deg);
@@ -306,7 +322,7 @@
         transform: skewX(0deg);
     }
 
-    .featureContainer>div:not(div:last-child) {
+    .featureContainer>div:not(div:nth-child(4)) {
         -webkit-transform:
             skewX(0deg);
         -moz-transform: skewX(0deg);
@@ -322,6 +338,8 @@
         font-style: italic;
         gap: 10px;
         align-items: center;
+
+
     }
 
     .features h2 img {

@@ -122,8 +122,9 @@
     }
 
     .aboutContainer>div:last-child h1 {
-        font-size: 1.8rem;
-        width: 310px;
+        font-size: 2.1rem;
+        font-weight: 800;
+        width: 100%;
     }
 
     .aboutContainer>div:last-child p {

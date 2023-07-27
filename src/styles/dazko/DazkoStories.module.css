@@ -71,6 +71,7 @@
 @media only screen and (max-width: 415px) {
     .videoContainer {
         flex-direction: column;
+        gap: 25px;
     }
 
     .storiesContainer h1 {
@@ -88,15 +89,15 @@
 
     .videoContainer>div,
     .videoContainer>div img {
-        border-radius: 8px;
+        border-radius: 6px;
         width: 100%;
-        height: 350px;
+        height: 400px;
     }
 
     .storiesContainer {
         padding: 40px 10px;
         width: 100%;
-        margin-bottom: 700px;
+        margin-bottom: 650px;
     }
 
     .videoDescrip {
