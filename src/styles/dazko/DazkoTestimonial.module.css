@@ -126,6 +126,13 @@
     .testimonialSection h1 {
         font-size: 28px;
         font-weight: 800;
+
+    }
+
+    .profileConatiner>div:last-child h3,
+    .profileConatiner>div:last-child p,
+    .profileConatiner>p {
+        font-size: 1rem;
     }
 
     .testimonialSection h4,

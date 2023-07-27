@@ -239,8 +239,8 @@ a {
 
   .testimonial-carousel .slick-dots {
     position: absolute;
-    top: 102%;
-    bottom: 20%;
+    top: 120%;
+    bottom: 0%;
 
   }
 
