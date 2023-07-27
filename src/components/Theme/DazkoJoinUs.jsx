@@ -26,7 +26,9 @@ const DazkoJoinUs = () => {
     return (
         <section className={styles.dazkoJoinUsSections}>
             <h4>JOIN US NOW</h4>
+
             <h1>JOIN US OUR FREE WORKOUT TRAINING WITH <span> DAZKO</span></h1>
+
             <div className={styles.joinUsFeatures}>
                 {
                     joinUs.map((join, i) => {

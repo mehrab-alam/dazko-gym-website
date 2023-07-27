@@ -103,6 +103,8 @@
 }
 
 .heightItem {
+    color: #ABADBB;
+
     height: 50px;
     width: 250px;
     border-radius: 0px;
@@ -111,6 +113,7 @@
 }
 
 .weightItem {
+    color: #ABADBB;
     width: 520px;
     height: 50px;
     border-radius: 0px;
