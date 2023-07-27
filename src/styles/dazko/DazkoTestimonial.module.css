@@ -91,7 +91,9 @@
     -ms-transform: skewX(-20deg);
     transform: skewX(-20deg);
     position: relative;
-    left: 160px;
+
+    left: 40%;
+    right: 60%;
     top: 30px;
     z-index: 100;
     display: flex;
@@ -116,6 +118,7 @@
 
     .testimonialSection {
         padding-top: 80px;
+        margin: 20px 0px;
     }
 
     .testimonialSection h1 {

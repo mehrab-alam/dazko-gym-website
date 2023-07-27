@@ -7,7 +7,6 @@
 }
 
 .formSection>div:first-child {
-
     position: absolute;
     right: 0px;
     left: 0px;
@@ -142,7 +141,7 @@
 }
 
 .computeBtn>Button {
-    width: 100%;
+    width: 50%;
     height: 50px;
     border-radius: 0px;
     font-size: 1.5rem;
@@ -186,7 +185,7 @@
 
     .formContent {
         width: 100%;
-        top: 162px;
+        bottom: 100%;
         padding: 0px 0px;
     }
 
@@ -199,7 +198,7 @@
     }
 
     .computeBtn {
-        width: 100%;
+        width: 50%;
     }
 
     .computeBtn>Button {
