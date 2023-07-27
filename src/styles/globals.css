@@ -121,33 +121,33 @@ a {
 }
 
 
-.testimonial-carousel {
 
-  .ant-carousel .slick-dots ul {
-    top: 20px;
-  }
 
-  .carousel-container .slick-dots {
-    position: relative;
-    top: 40px;
-  }
+.testimonial-carousel .ant-carousel .slick-dots ul {
+  top: 20px;
+}
 
-  .carousel-container .ant-carousel .slick-dots li.slick-active button,
-  .ant-carousel .slick-dots li button {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    background-color: #585757;
+.testimonial-carousel .slick-dots {
+  position: relative;
+  top: 40px;
+}
 
-  }
-
-  .carousel-container .ant-carousel .slick-dots li.slick-active button {
-    background-color: #999;
-
-  }
-
+.testimonial-carousel .ant-carousel .slick-dots li.slick-active button,
+.testimonial-carousel .ant-carousel .slick-dots li button {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #585757;
 
 }
+
+.testimonial-carousel .ant-carousel .slick-dots li.slick-active button {
+  background-color: #999;
+
+}
+
+
+
 
 
 

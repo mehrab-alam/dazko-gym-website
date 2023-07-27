@@ -5,9 +5,10 @@
 }
 
 .headerContent {
+
     padding: 0px 20px;
     top: 15px;
-    width: 1170px;
+
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
@@ -20,6 +21,7 @@
 }
 
 .headerContent>div:first-child {
+    padding-left: 3px;
     color: #e1193e;
 }
 
@@ -30,7 +32,7 @@
 
 .headerContent>div:last-child {
     display: flex;
-    margin-right: -15px;
+
     gap: 5px;
 }
 
@@ -150,14 +152,16 @@
 }
 
 .tabContainer {
+    max-width: 1200px;
+    margin: 0 auto;
     position: relative;
     padding: 0px 20px;
     top: 0px;
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 205px;
+    justify-content: space-between;
+    /* gap: 205px; */
 }
 
 .tabContainer .dazkoLogo {
