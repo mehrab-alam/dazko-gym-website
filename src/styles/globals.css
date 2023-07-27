@@ -185,15 +185,19 @@ a {
   }
 
   .tabContainer .ant-tabs-tab-btn {
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-top: -10px;
+    width: 100%;
   }
 
   .tabContainer .ant-tabs-tab:hover {
     color: #fff;
   }
 
+
   .tabContainer .ant-tabs-nav-list {
+
+
     margin-top: 20px;
   }
 
@@ -243,8 +247,6 @@ a {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 10px;
-    /* position: relative; */
-    left: -10px;
     padding-top: 10px;
 
   }
