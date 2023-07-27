@@ -1,0 +1,126 @@
+.dazkoJoinUsSections {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dazkoJoinUsSections h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #e1193e;
+}
+
+.dazkoJoinUsSections h1 {
+    text-align: center;
+    width: 500px;
+    font-weight: 800;
+    font-size: 3rem;
+
+}
+
+.dazkoJoinUsSections h1 span {
+    color: #e1193e;
+}
+
+.joinUsFeatures {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.joinUsFeatures>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    -webkit-transform:
+        skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    border-right: 1px dotted;
+}
+
+.joinUsFeatures>div:last-child {
+    border: none;
+}
+
+
+.joinUsFeatures>div h3 {
+    width: 250px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2.1rem;
+    color: #011f39;
+}
+
+.joinUsFeatures>div p {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: normal;
+    width: 300px;
+    color: gray;
+    -webkit-transform:
+        skewX(10deg);
+    -moz-transform: skewX(10deg);
+    -ms-transform: skewX(10deg);
+    transform: skewX(10deg);
+}
+
+.joinUsFeatures img {
+    position: relative;
+    object-fit: cover center;
+    height: 80px;
+    -webkit-transform:
+        skewX(10deg);
+    -moz-transform: skewX(10deg);
+    -ms-transform: skewX(10deg);
+    transform: skewX(10deg);
+}
+
+@media only screen and (max-width: 415px) {
+    .dazkoJoinUsSections h1 {
+        font-size: 2.4rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .dazkoJoinUsSections h4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .joinUsFeatures {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .joinUsFeatures>div {
+        -webkit-transform:
+            skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        transform: skewX(0deg);
+        border: none;
+    }
+
+    .joinUsFeatures>div p {
+        -webkit-transform:
+            skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        transform: skewX(0deg);
+    }
+
+    .joinUsFeatures img {
+        -webkit-transform:
+            skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        transform: skewX(0deg);
+    }
+}

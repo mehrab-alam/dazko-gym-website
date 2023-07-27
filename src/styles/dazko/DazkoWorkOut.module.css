@@ -1,0 +1,149 @@
+.workOutSection {
+    height: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.workOutSection h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #e1193e;
+}
+
+.workOutSection h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+
+.workOutSection h1 span {
+    color: #e1193e;
+}
+
+.workOutSection>div:nth-child(3) {
+
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.workOutSection>div:nth-child(3)>div {
+    height: 370px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.workOutClasses {
+    background-color: #00000039;
+}
+
+.workOutClasses img {
+    height: 370px;
+    width: 100%;
+    /* right: 0;
+    left: 0; */
+    position: relative;
+    z-index: -10;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.workOutClassesDescription {
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    top: -45px;
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.descripActive {
+
+    background-color: #1425af;
+    cursor: pointer;
+}
+
+.workOutClassesPrice {
+    display: none;
+    /* position: relative;
+    top: -400px;
+    left: 322px;
+    background-color: #1425af;
+    color: #fff;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(60px); */
+}
+
+.priceActive {
+    display: none;
+    /* padding: 10px;
+    display: flex;
+    transform: translateX(0px);
+    height: 30px;
+    align-items: center;
+    justify-content: left; */
+
+}
+
+
+.priceInActive {
+    display: none;
+}
+
+.workOutSection a {
+    color: #e1193e;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 415px) {
+    .workOutSection h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .workOutSection h4 {
+        text-align: center;
+
+        width: 100%;
+    }
+
+    .workOutSection>div:nth-child(3) {
+        flex-direction: column;
+    }
+
+    .workOutSection>div:nth-child(3)>div {
+        width: 350px;
+    }
+
+    .workOutClasses img {
+        width: 350px;
+    }
+
+    .workOutClassesPrice {
+        left: 290px;
+    }
+
+    .workOutSection a {
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 1.2rem;
+    }
+}
