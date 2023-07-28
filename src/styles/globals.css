@@ -232,14 +232,14 @@ a {
 
 
 
-  .testimonial-carousel .ant-carousel .slick-dots ul {
+  /* .testimonial-carousel .ant-carousel .slick-dots ul {
     position: relative;
 
-  }
+  } */
 
   .testimonial-carousel .slick-dots {
     position: absolute;
-    top: 120%;
+    top: 104%;
     bottom: 0%;
 
   }

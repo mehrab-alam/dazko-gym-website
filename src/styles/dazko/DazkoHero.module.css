@@ -131,15 +131,18 @@
     color: #cfcecf;
 }
 
-.heroDescriptions Button {
+.heroDescriptions a {
     width: 250px;
     height: 40px;
+    padding-top: 8px;
+    color: #fff;
+    text-align: center;
     border-radius: 0px;
     background-color: #e1193e;
 
 }
 
-.heroDescriptions Button:hover {
+.heroDescriptions a:hover {
     background-color: #1425af !important;
 }
 
@@ -404,9 +407,16 @@
         width: 100%;
     }
 
-    .heroDescriptions Button {
+    .heroDescriptions a {
         width: 50%;
+        height: 40px;
         font-size: 1rem;
+        padding-top: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
 
     }
 

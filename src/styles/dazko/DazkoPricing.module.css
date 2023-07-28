@@ -307,6 +307,12 @@
 
     }
 
+    .features>div:last-child h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        line-height: 34px;
+    }
+
     .featureContainer>div:first-child p,
     .featureContainer>div:nth-child(2) p,
     .featureContainer>div:nth-child(3) p {

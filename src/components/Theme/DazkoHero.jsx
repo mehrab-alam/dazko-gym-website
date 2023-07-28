@@ -115,7 +115,7 @@ export default function DazkoHero() {
                                     <div className={styles.heroDescriptions}>
                                         <h1>{carousel.header}</h1>
                                         <p>{carousel.para}</p>
-                                        <Button type="primary">{carousel.button} <RightOutlined /></Button>
+                                        <a >{carousel.button}<RightOutlined /></a>
                                     </div>
                                 </div>
                             </div>
