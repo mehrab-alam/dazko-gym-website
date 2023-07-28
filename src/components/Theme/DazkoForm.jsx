@@ -7,9 +7,7 @@ import styles from '../../styles/dazko/DazkoForm.module.css'
 const DazkoForm = () => {
     return (
         <section className={styles.formSection}>
-            <div>
-                {/* <Image src="/img/dazko-img/bg_4.jpg.webp" alt="" height={800} width={1200} /> */}
-            </div>
+
             <div className={styles.formContent}>
                 <h3>GET YOUR BODY MAX INDEX</h3>
                 <h1>WHAT IS YOUR <span>BMI</span></h1>
