@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
-
 // import styles from '@/styles/Home.module.css'
+
 import DazkoHero from '@/components/Theme/DazkoHero'
 import DazkoAbout from '@/components/Theme/DazkoAbout'
 import DazkoJoinUs from '@/components/Theme/DazkoJoinUs'
