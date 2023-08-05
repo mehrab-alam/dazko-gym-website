@@ -50,8 +50,9 @@ const DazkoFooter = () => {
     <section className={styles.footerSectionContainer}>
       <div className={styles.footerSection}>
         <div>
-          <h4>DAZKO</h4>
-          <div>CROSSFIT & FITNESS</div>
+          <img src='/img/dazko-img/sak gym-log.png' alt='' height={100} width={"auto"} />
+          {/* <h4>DAZKO</h4>
+          <div>CROSSFIT & FITNESS</div> */}
           <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
         </div>
         <div className={styles.exploreContainer}>

@@ -169,8 +169,11 @@
 
 .tabContainer .dazkoLogo {
     margin-top: -20px;
-    color: #e1193e;
-    font-size: 3rem;
+   
+}
+.dazkoLogo img{
+    height: 80px;
+    width: auto;
 }
 
 .tabContainer>div:nth-child(2) {

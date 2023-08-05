@@ -45,7 +45,7 @@ const DazkoWorkOut = () => {
       active: isActive1,
     },
     {
-      img: "/img/dazko-img/classes-2.jpg.webp",
+      img: "/img/dazko-img/sark_bg_1.jpg",
       descrip: "WEIGHT LIFTING",
       price: "100$",
       active: isActive2,

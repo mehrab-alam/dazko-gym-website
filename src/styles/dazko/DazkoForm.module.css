@@ -1,11 +1,18 @@
 .formSection {
-    background: url("/img/dazko-img/bg_4.jpg.webp") center/cover no-repeat;
+    background: url("/img/dazko-img/sark_bg_2.jpg") center/cover no-repeat;
+   
     height: 600px;
     width: 100%;
-    padding: 0px 10px;
 
 }
 
+.bgColor{
+    height: 100%;
+    padding: 0px 10px;
+  
+    width: 100%;
+    background-color: #0305137b;
+}
 
 
 .formContent {
@@ -66,7 +73,7 @@
 
 .formContainer {
     padding: 40px 20px;
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 512px;
     height: 100%;
     background-color: #0a113f;
