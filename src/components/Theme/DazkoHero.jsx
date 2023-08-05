@@ -21,7 +21,7 @@ export default function DazkoHero() {
       header: "INCREASE YOUR MUSCLE POWER",
       para: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
       button: "TAKE A TOUR NOW",
-      img: "/img/dazko-img/bg_2.jpg.webp",
+      img: "/img/dazko-img/sark_bg_2.jpg",
     },
     {
       header: "YOU ONLY FAIL, WHEN YOU STOP TRYING",
